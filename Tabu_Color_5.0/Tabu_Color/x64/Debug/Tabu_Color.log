@@ -1,0 +1,10 @@
+﻿  TabuSearch.cpp
+f:\my study-graduate\project\tabu_color\tabu_color\tabusearch.cpp(18): warning C4101: “i”: 未引用的局部变量
+  main.cpp
+f:\my study-graduate\project\tabu_color\tabu_color\main.cpp(16): warning C4101: “k”: 未引用的局部变量
+f:\my study-graduate\project\tabu_color\tabu_color\main.cpp(16): warning C4101: “j”: 未引用的局部变量
+f:\my study-graduate\project\tabu_color\tabu_color\main.cpp(16): warning C4101: “i”: 未引用的局部变量
+  haha.cpp
+  Graph.cpp
+  正在生成代码...
+  Tabu_Color.vcxproj -> F:\my study-graduate\project\Tabu_Color\x64\Debug\Tabu_Color.exe

@@ -1,0 +1,14 @@
+﻿  Population.cpp
+Population.cpp(69): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+Population.cpp(68): warning C4101: “j”: 未引用的局部变量
+Population.cpp(92): warning C4101: “k”: 未引用的局部变量
+  main.cpp
+main.cpp(15): warning C4101: “k”: 未引用的局部变量
+main.cpp(15): warning C4101: “j”: 未引用的局部变量
+main.cpp(15): warning C4101: “i”: 未引用的局部变量
+  正在生成代码
+  9 of 161 functions ( 5.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Hybrid_ColorP.vcxproj -> F:\my study-graduate\project\Hybrid_change\Hybrid_ColorP4.0\x64\Release\Hybrid_ColorP.exe

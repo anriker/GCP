@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+      <FILENAME>tabusearch.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>“i”的局部声明遮蔽了外部作用域中具有相同名称的声明。有关其他信息，请参见此前位于“18”行(“f:\my study-graduate\project\tabu_color\tabu_color\tabusearch.cpp”中)的声明。</DESCRIPTION>
+    <FUNCTION>C_TabuSearch</FUNCTION>
+    <DECORATED>?C_TabuSearch@@YAHAEAUGraph@@H@Z</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>tabusearch.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+      <FILENAME>tabusearch.cpp</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6278</DEFECTCODE>
+    <DESCRIPTION>“tabu_move1”使用数组 new [] 分配，但使用标量 delete 删除。 将不会调用析构函数。</DESCRIPTION>
+    <FUNCTION>FindMove</FUNCTION>
+    <DECORATED>?FindMove@@YA?AUFind_u_vi_vj@@AEAUGraph@@HAEAU1@@Z</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>tabusearch.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>67</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>tabusearch.cpp</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+      <FILENAME>tabusearch.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6278</DEFECTCODE>
+    <DESCRIPTION>“notabu_move1”使用数组 new [] 分配，但使用标量 delete 删除。 将不会调用析构函数。</DESCRIPTION>
+    <FUNCTION>FindMove</FUNCTION>
+    <DECORATED>?FindMove@@YA?AUFind_u_vi_vj@@AEAUGraph@@HAEAU1@@Z</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>tabusearch.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>tabusearch.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+      <FILENAME>graph.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“4000020”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>CreatGraph</FUNCTION>
+    <DECORATED>?CreatGraph@@YAXAEAUGraph@@@Z</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+      <FILENAME>graph.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6283</DEFECTCODE>
+    <DESCRIPTION>“line”使用数组 new [] 分配，但使用标量 delete 删除。</DESCRIPTION>
+    <FUNCTION>C_file</FUNCTION>
+    <DECORATED>?C_file@@YAXAEAUGraph@@AEAUedge@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>graph.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>graph.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+      <FILENAME>graph.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6283</DEFECTCODE>
+    <DESCRIPTION>“file”使用数组 new [] 分配，但使用标量 delete 删除。</DESCRIPTION>
+    <FUNCTION>C_file</FUNCTION>
+    <DECORATED>?C_file@@YAXAEAUGraph@@AEAUedge@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>graph.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>f:\my study-graduate\project\tabu_color\tabu_color\</FILEPATH>
+        <FILENAME>graph.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

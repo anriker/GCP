@@ -1,0 +1,5 @@
+﻿  main.cpp
+f:\my study-graduate\project\hybrid_change\hybrid_colorp1.0\hybrid_colorp\main.cpp(15): warning C4101: “k”: 未引用的局部变量
+f:\my study-graduate\project\hybrid_change\hybrid_colorp1.0\hybrid_colorp\main.cpp(15): warning C4101: “j”: 未引用的局部变量
+f:\my study-graduate\project\hybrid_change\hybrid_colorp1.0\hybrid_colorp\main.cpp(15): warning C4101: “i”: 未引用的局部变量
+  Hybrid_ColorP.vcxproj -> F:\my study-graduate\project\Hybrid_change\Hybrid_ColorP1.0\Debug\Hybrid_ColorP.exe
